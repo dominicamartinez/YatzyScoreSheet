@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myScrollView"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myRelativeLayout"
+        android:background="#FFFFFF">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 1's" />
+
+                <EditText
+                    android:id="@+id/one1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/one2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/one3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Two" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 2's" />
+
+                <EditText
+                    android:id="@+id/two1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/two2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/two3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Three" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 3's" />
+
+                <EditText
+                    android:id="@+id/three1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/three2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/three3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Four" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 4's" />
+
+                <EditText
+                    android:id="@+id/four1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/four2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/four3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Five" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 5's" />
+
+                <EditText
+                    android:id="@+id/five1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/five2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/five3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Six" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all 6's" />
+
+                <EditText
+                    android:id="@+id/six1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/six2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/six3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bonus" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+35 if > 62" />
+
+                <EditText
+                    android:id="@+id/bonus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="2"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/bonus2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="2"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/bonus3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="2"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 of a kind" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all dice" />
+
+                <EditText
+                    android:id="@+id/threeOfAKind1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/threeOfAKind2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/threeOfAKind3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 of a kind" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all dice" />
+
+                <EditText
+                    android:id="@+id/fourOfAKind1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/fourOfAKind2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/fourOfAKind3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full House" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score 25" />
+
+                <EditText
+                    android:id="@+id/fullHouse1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/fullHouse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/fullHouse3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sm. Straight" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score 30" />
+
+                <EditText
+                    android:id="@+id/smStraight1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/smStraight2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/smStraight3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lg. Straight" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score 40" />
+
+                <EditText
+                    android:id="@+id/lgStraight1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/lgStraight2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/lgStraight3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yahtzy" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score 50" />
+
+                <EditText
+                    android:id="@+id/yahtzy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/yahtzy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/yahtzy3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chance" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum all dice" />
+
+                <EditText
+                    android:id="@+id/chance1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80F4F4F4"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/chance2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#80E68F8F"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/chance3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_border"
+                    android:backgroundTint="#8037A0F1"
+                    android:ems="2"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textCursorDrawable="@drawable/black_cursor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/ScoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginBottom="148dp"
+            android:onClick="calcScoreClick"
+            android:text="Calculate Score"></Button>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/ScoreButton"
+            android:text="0"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</ScrollView>
